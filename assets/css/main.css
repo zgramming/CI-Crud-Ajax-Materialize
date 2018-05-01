@@ -1,0 +1,34 @@
+	    body{
+	    	display: flex;
+	    	min-height: 100vh;
+	    	flex-direction: column;
+	    }
+	    main{
+	    	flex: 1 0 auto;
+	    }
+	    	 /* label focus color */
+	   .input-field.login input  {
+	     color: #fff !important;
+	     border-bottom: 0.5px solid #fff!important;
+	 	}
+	   .input-field.login input + label {
+	     color: #fff !important;
+		}
+	   .input-field.login input:focus + label {
+	     color: #fff !important;
+		}
+	  /* Untuk Icon */
+	   .input-field.login .prefix{
+	    color: #fff !important;
+		  }
+	    .input-field.login .prefix.active{
+	    color: #fff !important;
+	 	 }
+	/* label underline focus color */
+	   .input-field.login input:focus {
+	     border-bottom: 1px solid #fff!important;
+	     box-shadow: 0 1px 0 0 #fff!important;
+	   	}
+	   .border-right{
+	   		border-right: 2px dotted #Fff;
+	  	 }
